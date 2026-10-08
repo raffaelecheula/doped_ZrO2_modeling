@@ -1,0 +1,50 @@
+ZrO2(101)+Al3+:
+  DFT:
+    "H2COO* diss.": +0.0
+    "H2COOH* diss.": +100.0
+  Linear:
+    "H2COO* diss.": +14.40
+    "H2COOH* diss.": +85.60
+  Graph:
+    "H2COO* diss.": +4.06
+    "H2COOH* diss.": +95.94
+ZrO2(101)+Cd2+:
+  DFT:
+    "H2COO* diss.": +100.0
+    "H2COOH* diss.": +0.0
+  Linear:
+    "H2COO* diss.": +68.56
+    "H2COOH* diss.": +31.44
+  Graph:
+    "H2COO* diss.": +99.95
+    "H2COOH* diss.": +0.05
+ZrO2(101)+Ga3+:
+  DFT:
+    "H2COO* diss.": +0.48
+    "H2COOH* diss.": +99.52
+  Linear:
+    "H2COO* diss.": +0.79
+    "H2COOH* diss.": +99.21
+  Graph:
+    "H2COO* diss.": +0.22
+    "H2COOH* diss.": +99.78
+ZrO2(101)+In3+:
+  DFT:
+    "H2COO* diss.": +11.96
+    "H2COOH* diss.": +88.04
+  Linear:
+    "H2COO* diss.": +1.37
+    "H2COOH* diss.": +98.63
+  Graph:
+    "H2COO* diss.": +21.56
+    "H2COOH* diss.": +78.44
+ZrO2(101)+Zn2+:
+  DFT:
+    "H2COO* diss.": +99.88
+    "H2COOH* diss.": +0.12
+  Linear:
+    "H2COO* diss.": +14.97
+    "H2COOH* diss.": +85.03
+  Graph:
+    "H2COO* diss.": +99.61
+    "H2COOH* diss.": +0.39

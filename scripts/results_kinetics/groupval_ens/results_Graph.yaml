@@ -1,0 +1,150 @@
+ZrO2(101)+Al3+_T=300C_P=2MPa:
+  surface: ZrO2(101)+Al3+
+  temperature_C: 300
+  pressure_MPa: 2
+  yield_CH3OH:
+  - 0.297177061576682347
+  - 0.207731524649937023
+  - 0.154534018416207601
+  - 0.100237156347451089
+  DRC_dict: null
+ZrO2(101)+Al3+_T=340C_P=4MPa:
+  surface: ZrO2(101)+Al3+
+  temperature_C: 340
+  pressure_MPa: 4
+  yield_CH3OH:
+  - 0.514450472970706592
+  - 0.450386350919149858
+  - 0.410040309635641473
+  - 0.336085698796890985
+  DRC_dict: null
+ZrO2(101)+Al3+_T=380C_P=6MPa:
+  surface: ZrO2(101)+Al3+
+  temperature_C: 380
+  pressure_MPa: 6
+  yield_CH3OH:
+  - 1.35997600391961016
+  - 1.22046017233395671
+  - 0.87467039916378849
+  - 0.74328994538328171
+  DRC_dict: null
+ZrO2(101)+Cd2+_T=300C_P=2MPa:
+  surface: ZrO2(101)+Cd2+
+  temperature_C: 300
+  pressure_MPa: 2
+  yield_CH3OH:
+  - 1.72454368991496675
+  - 1.50114015889365536
+  - 1.35780347129616263
+  - 1.15039957598236166
+  DRC_dict: null
+ZrO2(101)+Cd2+_T=340C_P=4MPa:
+  surface: ZrO2(101)+Cd2+
+  temperature_C: 340
+  pressure_MPa: 4
+  yield_CH3OH:
+  - 4.31729320825069005
+  - 3.95570480491070803
+  - 3.78222729971332336
+  - 3.56805511670149372
+  DRC_dict: null
+ZrO2(101)+Cd2+_T=380C_P=6MPa:
+  surface: ZrO2(101)+Cd2+
+  temperature_C: 380
+  pressure_MPa: 6
+  yield_CH3OH:
+  - 7.42111138203185259
+  - 6.97643923841933223
+  - 6.44821202913704115
+  - 6.07222887843157580
+  DRC_dict: null
+ZrO2(101)+Ga3+_T=300C_P=2MPa:
+  surface: ZrO2(101)+Ga3+
+  temperature_C: 300
+  pressure_MPa: 2
+  yield_CH3OH:
+  - 1.36341878781195726
+  - 1.05564291860621072
+  - 0.925871926740492955
+  - 0.831247662261092868
+  DRC_dict: null
+ZrO2(101)+Ga3+_T=340C_P=4MPa:
+  surface: ZrO2(101)+Ga3+
+  temperature_C: 340
+  pressure_MPa: 4
+  yield_CH3OH:
+  - 3.42367965958115768
+  - 2.85977937964956545
+  - 2.68234824357157821
+  - 2.44840502850777159
+  DRC_dict: null
+ZrO2(101)+Ga3+_T=380C_P=6MPa:
+  surface: ZrO2(101)+Ga3+
+  temperature_C: 380
+  pressure_MPa: 6
+  yield_CH3OH:
+  - 6.72640038008855112
+  - 6.37848549780746483
+  - 5.69037347452277546
+  - 5.48624477865003806
+  DRC_dict: null
+ZrO2(101)+In3+_T=300C_P=2MPa:
+  surface: ZrO2(101)+In3+
+  temperature_C: 300
+  pressure_MPa: 2
+  yield_CH3OH:
+  - 3.06987126833100007
+  - 2.88368310646130078
+  - 2.01105283214665730
+  - 1.83455820185294638
+  DRC_dict: null
+ZrO2(101)+In3+_T=340C_P=4MPa:
+  surface: ZrO2(101)+In3+
+  temperature_C: 340
+  pressure_MPa: 4
+  yield_CH3OH:
+  - 6.53049197802221901
+  - 6.01774102632907583
+  - 5.45313339238456171
+  - 5.03952811769778443
+  DRC_dict: null
+ZrO2(101)+In3+_T=380C_P=6MPa:
+  surface: ZrO2(101)+In3+
+  temperature_C: 380
+  pressure_MPa: 6
+  yield_CH3OH:
+  - 7.62158035990758087
+  - 7.69950710203784741
+  - 7.56068626259834288
+  - 7.66778264967169423
+  DRC_dict: null
+ZrO2(101)+Zn2+_T=300C_P=2MPa:
+  surface: ZrO2(101)+Zn2+
+  temperature_C: 300
+  pressure_MPa: 2
+  yield_CH3OH:
+  - 1.27898735938008491
+  - 0.902181483931672980
+  - 0.784228482090131392
+  - 0.664657666966199224
+  DRC_dict: null
+ZrO2(101)+Zn2+_T=340C_P=4MPa:
+  surface: ZrO2(101)+Zn2+
+  temperature_C: 340
+  pressure_MPa: 4
+  yield_CH3OH:
+  - 3.40555831515684783
+  - 3.17996815921661217
+  - 2.81803115882576558
+  - 2.65702672027986079
+  DRC_dict: null
+ZrO2(101)+Zn2+_T=380C_P=6MPa:
+  surface: ZrO2(101)+Zn2+
+  temperature_C: 380
+  pressure_MPa: 6
+  yield_CH3OH:
+  - 6.34854123327937566
+  - 6.36519561341259888
+  - 5.90880220063699957
+  - 5.94310373228608210
+  DRC_dict: null

@@ -1,0 +1,31 @@
+colors:
+  "ZrO2(101)+Al3+": "orchid"
+  "ZrO2(101)+Cd2+": "orange"
+  "ZrO2(101)+Ga3+": "crimson"
+  "ZrO2(101)+In3+": "forestgreen"
+  "ZrO2(101)+Zn2+": "royalblue"
+labels:
+  "ZrO2(101)+Al3+": Al$^{3\!+}$
+  "ZrO2(101)+Cd2+": Cd$^{2\!+}$
+  "ZrO2(101)+Ga3+": Ga$^{3\!+}$
+  "ZrO2(101)+In3+": In$^{3\!+}$
+  "ZrO2(101)+Zn2+": Zn$^{2\!+}$
+markers:
+  "300 C, 2 MPa": "o"
+  "340 C, 4 MPa": "^"
+  "380 C, 6 MPa": "X"
+species_key:
+  "HCOO*\nform.": "CO2(Zr) + H(Ga)+H(O) + (Zr) <=> HCOO(Zr,Zr)+H(O) + (Ga)"
+  "H$_2$COO*\ndiss.": "H2COO(Ga,Zr,Zr)+H(O)+H(O) <=> CH2O + OH(Zr)+H(O) + (Ga) + (Zr) + (O)"
+  "H$_2$COOH*\ndiss.": "H2COOH(Ga,Zr,Zr)+H(O) <=> CH2O + H2O(Ga) + 2 (Zr) + (O)"
+  "H$_3$CO*\nform.": "CH2O + H(Ga)+H(O) <=> H3CO(Ga)+H(O)"
+replace_dict:
+  "(Zr)": "*"
+  "(O)": "*"
+  "(Ga)": "*"
+  "(Zr,Zr)": "**"
+  "(Ga,Zr)": "**"
+  "(Ga,Zr,Zr)": "***"
+  "(Ga,Zr,Zr,O)": "***"
+  "(Zr,Zr,Zr,O)": "***"
+  " ": ""

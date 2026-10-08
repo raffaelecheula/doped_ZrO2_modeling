@@ -1,0 +1,394 @@
+species-gas:
+- name: H2
+  composition: {H: 2}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+3.00000000E+02, +1.00000000E+03, +5.00000000E+03]
+    data:
+    - [+3.29812400E+00, +8.24944120E-04, -8.14301470E-07, -9.47543430E-11, +4.13487200E-13, +0.00000000E+00, -3.29409400E+00]
+    - [+2.99142220E+00, +7.00064410E-04, -5.63382800E-08, -9.23157820E-12, +1.58275200E-15, +1.77487454E+02, -1.35510641E+00]
+- name: H2O
+  composition: {H: 2, O: 1}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+2.00000000E+02, +1.00000000E+03, +3.50000000E+03]
+    data:
+    - [+4.19864056E+00, -2.03643410E-03, +6.52040211E-06, -5.48797062E-09, +1.77197817E-12, +0.00000000E+00, -8.49032208E-01]
+    - [+3.03399249E+00, +2.17691804E-03, -1.64072518E-07, -9.70419870E-11, +1.68200992E-14, +2.89429600E+02, +4.96677010E+00]
+- name: CO
+  composition: {C: 1, O: 1}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+2.00000000E+02, +1.00000000E+03, +3.50000000E+03]
+    data:
+    - [+3.57953347E+00, -6.10353680E-04, +1.01681433E-06, +9.07005884E-10, -9.04424499E-13, +4.74667800E+03, +3.50840928E+00]
+    - [+2.71518561E+00, +2.06252743E-03, -9.98825771E-07, +2.30053008E-10, -2.03647716E-14, +4.93889160E+03, +7.81868772E+00]
+- name: CO2
+  composition: {C: 1, O: 2}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+2.00000000E+02, +1.00000000E+03, +3.50000000E+03]
+    data:
+    - [+2.35677352E+00, +8.98459677E-03, -7.12356269E-06, +2.45919022E-09, -1.43699548E-13, +0.00000000E+00, +9.90105222E+00]
+    - [+3.85746029E+00, +4.41437026E-03, -2.21481404E-06, +5.23490188E-10, -4.72084164E-14, -3.87196300E+02, +2.27163806E+00]
+- name: CH4
+  composition: {H: 4, C: 1}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+2.00000000E+02, +1.00000000E+03, +3.50000000E+03]
+    data:
+    - [+5.14987613E+00, -1.36709788E-02, +4.91800599E-05, -4.84743026E-08, +1.66693956E-11, -1.84120473E+04, -4.64130376E+00]
+    - [+7.48514950E-02, +1.33909467E-02, -5.73285809E-06, +1.22292535E-09, -1.01815230E-13, -1.76337443E+04, +1.84373180E+01]
+- name: O2
+  composition: {O: 2}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+3.00000000E+02, +1.00000000E+03, +5.00000000E+03]
+    data:
+    - [+3.21293600E+00, +1.12748610E-03, -5.75614990E-07, +1.31387700E-09, -8.76855390E-13, +5.75571624E+04, +6.03473900E+00]
+    - [+3.69757685E+00, +6.13519690E-04, -1.25884200E-07, +1.77528100E-11, -1.13643500E-15, +5.73284817E+04, +3.18917125E+00]
+- name: N2
+  composition: {N: 2}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+3.00000000E+02, +1.00000000E+03, +5.00000000E+03]
+    data:
+    - [+3.29867700E+00, +1.40823990E-03, -3.96322180E-06, +5.64151480E-09, -2.44485400E-12, +0.00000000E+00, +3.95037200E+00]
+    - [+2.92663788E+00, +1.48797700E-03, -5.68476030E-07, +1.00970400E-10, -6.75335090E-15, +9.81046160E+01, +5.98054018E+00]
+- name: CH3OH
+  composition: {C: 1, H: 4, O: 1}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+2.00000000E+02, +1.00000000E+03, +3.50000000E+03]
+    data:
+    - [+1.78970791E+00, +1.40938292E-02, -6.36500835E-06, +1.38171085E-09, -1.17060220E-13, -4.25906870E+03, +1.45023623E+01]
+    - [+5.71539582E+00, -1.52309129E-02, +6.52441155E-05, -7.10806889E-08, +2.61352698E-11, -4.52695960E+03, -1.50409823E+00]
+- name: CH2O
+  composition: {C: 1, H: 2, O: 1}
+  thermo:
+    model: NASA7
+    temperature-ranges: [+2.00000000E+02, +1.00000000E+03, +3.50000000E+03]
+    data:
+    - [+2.99560620E+00, +6.68132120E-03, -2.62895470E-06, +4.73715290E-10, -3.21251750E-14, +4.78291600E+03, +6.91257240E+00]
+    - [+1.65273120E+00, +1.26314390E-02, -1.88816850E-05, +2.05003140E-08, -8.41323710E-12, +5.23788100E+03, +1.37848200E+01]
+species-adsorbates:
+- name: (Zr)
+  composition: {Zr: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+- name: (Ga)
+  composition: {Ga: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+- name: (O)
+  composition: {O: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+- name: H(Zr)+H(O)
+  composition: {Zr: 1, H: 2, O: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-2.16692999E+00, +1.96526081E-02, -2.65627539E-05, +1.91526061E-08, -5.58926443E-12, +2.50974889E+03, +8.30443903E+00]
+- name: H(Ga)+H(O)
+  composition: {Ga: 1, H: 2, O: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-2.16692999E+00, +1.96526081E-02, -2.65627539E-05, +1.91526061E-08, -5.58926443E-12, +2.50974889E+03, +8.30443903E+00]
+- name: CO2(Zr)
+  composition: {Zr: 1, C: 1, O: 2}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+3.37807765E+00, +1.28304956E-02, -1.67697436E-05, +1.25047762E-08, -3.92098951E-12, +9.43227786E+01, -1.03254537E+01]
+- name: HCOO(Zr,Zr)+H(Ga)+H(O)+H(O)
+  composition: {Zr: 2, H: 4, C: 1, O: 4, Ga: 1}
+  size: 5
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-7.57810168E-02, +4.35473606E-02, -4.98399642E-05, +3.08930615E-08, -7.88246633E-12, +6.20849654E+03, -1.69248904E+00]
+- name: HCOO(Zr,Zr)+H(O)
+  composition: {Zr: 2, H: 2, C: 1, O: 3}
+  size: 3
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+2.09114820E+00, +2.38947584E-02, -2.32772263E-05, +1.17404736E-08, -2.29320929E-12, +3.69874772E+03, -9.99692488E+00]
+- name: H2COO(Zr,Zr)+H(O)+H(O)
+  composition: {Zr: 2, H: 4, C: 1, O: 4}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-3.08224393E-01, +4.29039205E-02, -4.78949757E-05, +2.78031973E-08, -6.26537192E-12, +7.50103785E+03, -6.47157901E-01]
+- name: H2COO(Ga,Zr,Zr)+H(O)+H(O)
+  composition: {Ga: 1, Zr: 2, H: 4, C: 1, O: 4}
+  size: 5
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-7.83502173E-01, +3.43588622E-02, -2.00925308E-05, -2.42222089E-09, +5.08186933E-12, +7.91896146E+03, +2.09545535E+00]
+- name: CH2O(Zr)
+  composition: {Zr: 1, C: 1, H: 2, O: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+4.18589691E+00, +3.84595628E-03, +9.34508419E-06, -1.27282445E-08, +4.76220317E-12, +5.30370715E+03, -1.68413229E+01]
+- name: H3CO(Zr)+H(O)
+  composition: {Zr: 1, H: 4, C: 1, O: 2}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+3.08267649E+00, +1.46901135E-02, +1.86959987E-06, -1.23743619E-08, +6.13886783E-12, +9.20810980E+03, -1.28020381E+01]
+- name: H3CO(Ga)+H(O)
+  composition: {Ga: 1, H: 4, C: 1, O: 2}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+4.08203534E+00, -5.58880327E-04, +4.10886993E-05, -5.06937639E-08, +1.94498389E-11, +9.28283852E+03, -1.62850961E+01]
+- name: CH3OH(Ga)
+  composition: {Ga: 1, C: 1, H: 4, O: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+4.08203534E+00, -5.58880327E-04, +4.10886993E-05, -5.06937639E-08, +1.94498389E-11, +9.28283852E+03, -1.62850961E+01]
+- name: OH(Zr)+H(O)
+  composition: {Zr: 1, O: 2, H: 2}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-3.84289196E-01, +3.08873427E-02, -5.62569645E-05, +4.86867653E-08, -1.59483923E-11, +7.32060836E+02, -6.41854920E-01]
+- name: H2O(Ga)
+  composition: {Ga: 1, H: 2, O: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-7.01692434E-01, +1.88745169E-02, -1.90457569E-05, +9.89456272E-09, -2.01007311E-12, +8.81532887E+02, +1.97549372E+00]
+- name: H2COOH(Ga,Zr,Zr)+H(O)
+  composition: {Ga: 1, Zr: 2, H: 4, C: 1, O: 3}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+2.68380237E-01, +2.92129052E-02, -1.13094587E-05, -8.35410426E-09, +6.37351793E-12, +7.61415150E+03, -2.41895908E+00]
+- name: COOH(Ga,Zr)+H(O)
+  composition: {Ga: 1, Zr: 1, C: 1, O: 3, H: 2}
+  size: 3
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+8.21798476E-01, +3.37844888E-02, -4.38162657E-05, +2.92350850E-08, -7.75860142E-12, +3.67010142E+03, -4.44298762E+00]
+- name: CO(Zr)
+  composition: {Zr: 1, C: 1, O: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+3.44238695E+00, +7.36796940E-03, -1.48702705E-05, +1.54346291E-08, -5.95514021E-12, +1.71605886E+03, -1.23197525E+01]
+- name: CO2(Ga,Zr,Zr,O)
+  composition: {Ga: 1, Zr: 2, O: 3, C: 1}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-1.10458100E+00, +2.78758176E-02, -3.54074965E-05, +2.26347989E-08, -5.88554102E-12, +8.66266884E+02, +3.08654399E+00]
+- name: CH2O(Ga)+OH(Zr)+H(O)
+  composition: {Ga: 1, C: 1, H: 4, O: 3, Zr: 1}
+  size: 3
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+3.46404726E+00, +2.80119357E-02, -2.99726375E-05, +1.88360554E-08, -4.95447988E-12, +6.02537067E+03, -1.35650723E+01]
+- name: CH2O(Zr)+H2O(Ga)
+  composition: {Zr: 1, C: 1, H: 4, O: 2, Ga: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+2.90373147E+00, +2.68227202E-02, -1.97384402E-05, +6.85576730E-09, -5.43124852E-13, +6.52053094E+03, -1.32965854E+01]
+- name: CO2(Zr,Zr,Zr,O)
+  composition: {Zr: 3, O: 3, C: 1}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-1.10458100E+00, +2.78758176E-02, -3.54074965E-05, +2.26347989E-08, -5.88554102E-12, +8.66266884E+02, +3.08654399E+00]
+species-reactions:
+- name: H2 + (Ga) + (O) <=> H(Ga)+H(O)
+  composition: {H: 2, Ga: 1, O: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-9.84430328E-01, +7.88760724E-03, -3.29027614E-07, -5.89684823E-09, +3.14375891E-12, +1.31658333E+03, +3.87005568E+00]
+    sticking: false
+- name: CO2(Zr) + H(Ga)+H(O) + (Zr) <=> HCOO(Zr,Zr)+H(O) + (Ga)
+  composition: {Zr: 2, C: 1, O: 3, Ga: 1, H: 2}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+1.03060247E+00, +3.09115053E-02, -4.10247208E-05, +2.94840313E-08, -8.71997588E-12, +2.09191938E+03, -3.76821214E+00]
+    sticking: false
+- name: HCOO(Zr,Zr)+H(O) + H(Ga)+H(O) <=> H2COO(Ga,Zr,Zr)+H(O)+H(O)
+  composition: {Zr: 2, H: 4, C: 1, O: 4, Ga: 1}
+  size: 5
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-2.12515838E+00, +4.89941067E-02, -5.62794019E-05, +3.24189472E-08, -7.15875817E-12, +6.05318555E+03, +6.36272573E+00]
+    sticking: false
+- name: H2COO(Ga,Zr,Zr)+H(O)+H(O) <=> CH2O + OH(Zr)+H(O) + (Ga) + (Zr) + (O)
+  composition: {Ga: 1, Zr: 2, H: 4, C: 1, O: 4}
+  size: 5
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+3.46404726E+00, +2.80119357E-02, -2.99726375E-05, +1.88360554E-08, -4.95447988E-12, +6.02537067E+03, -1.35650723E+01]
+    sticking: false
+- name: OH(Zr)+H(O) + (Ga) <=> H2O(Ga) + (Zr) + (O)
+  composition: {Zr: 1, O: 2, H: 2, Ga: 1}
+  size: 3
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-1.26068559E+00, +3.19156847E-02, -5.46104081E-05, +4.51667118E-08, -1.42710231E-11, +1.02524325E+03, +3.93823260E+00]
+    sticking: false
+- name: CH2O + H(Ga)+H(O) <=> H3CO(Ga)+H(O)
+  composition: {C: 1, H: 4, O: 2, Ga: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+4.92588061E-01, +2.75454058E-02, -2.53032206E-05, +1.31192553E-08, -2.88333568E-12, +7.74002566E+03, -3.69302533E+00]
+    sticking: false
+- name: H2COO(Ga,Zr,Zr)+H(O)+H(O) <=> H2COOH(Ga,Zr,Zr)+H(O) + (O)
+  composition: {Ga: 1, Zr: 2, H: 4, C: 1, O: 4}
+  size: 5
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-6.93513522E-01, +2.93074010E-02, -8.32772109E-06, -1.34804706E-08, +8.70303549E-12, +6.86145952E+03, +1.70500966E+00]
+    sticking: false
+- name: H2COOH(Ga,Zr,Zr)+H(O) <=> CH2O + H2O(Ga) + 2 (Zr) + (O)
+  composition: {Ga: 1, Zr: 2, H: 4, C: 1, O: 3}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+1.75950670E+00, +2.85152553E-02, -2.31980076E-05, +9.40577257E-09, -1.16513727E-12, +6.52555606E+03, -9.04116852E+00]
+    sticking: false
+- name: H2 + (Zr) + (O) <=> H(Zr)+H(O)
+  composition: {H: 2, Zr: 1, O: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [-9.84430328E-01, +7.88760724E-03, -3.29027614E-07, -5.89684823E-09, +3.14375891E-12, +1.31658333E+03, +3.87005568E+00]
+    sticking: false
+- name: CO2 + (Zr) <=> CO2(Zr)
+  composition: {C: 1, O: 2, Zr: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+    sticking: true
+- name: H2O + (Ga) <=> H2O(Ga)
+  composition: {H: 2, O: 1, Ga: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+    sticking: true
+- name: CH3OH + (Ga) + (O) <=> H3CO(Ga)+H(O)
+  composition: {C: 1, H: 4, O: 2, Ga: 1}
+  size: 2
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+    sticking: true
+- name: CO2 + (Ga) + 2 (Zr) + (O) <=> CO2(Ga,Zr,Zr,O)
+  composition: {C: 1, O: 3, Ga: 1, Zr: 2}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+    sticking: true
+- name: CO2 + 3 (Zr) + (O) <=> CO2(Zr,Zr,Zr,O)
+  composition: {C: 1, O: 3, Zr: 3}
+  size: 4
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+    sticking: true
+- name: CO + (Zr) <=> CO(Zr)
+  composition: {C: 1, O: 1, Zr: 1}
+  size: 1
+  thermo:
+    model: NASA7
+    temperature-ranges: [200, 1000]
+    data:
+    - [+0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00, +0.00000000E+00]
+    sticking: true
