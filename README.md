@@ -75,8 +75,6 @@ If you use this repository in your research, please cite the associated study:
 > *Improved screening of doped ZrO₂ catalysts for CO₂ hydrogenation from graph-based machine learning*, 
 > [arXiv.2610.13795](https://doi.org/10.48550/arXiv.2610.13795).
 
-Publication details and DOI should be added here when available.
-
 ## License
 
 This project is distributed under the [GNU General Public License v3.0](LICENSE).
