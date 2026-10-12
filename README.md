@@ -71,7 +71,9 @@ python 7_plot_reaction_paths.py
 
 If you use this repository in your research, please cite the associated study:
 
-> Jensen, K. W., Andersen, M., and Cheula, R. *Improved screening of doped ZrO₂ catalysts for CO₂ hydrogenation from graph-based machine learning*.
+> K. W. Jensen, M. Andersen\*, and R. Cheula\*, 
+> *Improved screening of doped ZrO₂ catalysts for CO₂ hydrogenation from graph-based machine learning*, 
+> [arXiv.2610.13795](https://doi.org/10.48550/arXiv.2610.13795).
 
 Publication details and DOI should be added here when available.
 
