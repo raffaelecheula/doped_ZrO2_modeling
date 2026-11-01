@@ -120,7 +120,7 @@ def prepare_database(
     if species_type == "reactions":
         features_names += ["energy_first", "energy_last", "energy_react"]
     # SOAP dictionary.
-    soap_dict = {}
+    soap_dict = yaml.safe_load(open("yaml/soap_features.yaml", "r"))
     const_kwargs.update({"features_dict": {}})
     # Read atoms and get features.
     atoms_new_list = []
