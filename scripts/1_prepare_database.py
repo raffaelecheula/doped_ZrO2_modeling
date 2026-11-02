@@ -56,6 +56,7 @@ def prepare_database(
     # Bader charges.
     bader_charges_dict = yaml.safe_load(open("yaml/bader_charges.yaml", "r"))
     # SOAP parameters.
+    calculate_soap = False
     n_max, l_max = 3, 2
     soap_kwargs = {"r_cut": 5.0, "sigma": 0.5, "n_max": n_max, "l_max": l_max}
 
@@ -161,9 +162,9 @@ def prepare_database(
         # Get constants features.
         features_const = get_features_const(atoms=atoms, **const_kwargs)
         # Get SOAP features.
-        if surface not in soap_dict:
+        if surface not in soap_dict and calculate_soap is True:
             soap_dict[surface] = get_features_soap(atoms=atoms_clean, **soap_kwargs)
-        if species_gas not in soap_dict:
+        if species_gas not in soap_dict and calculate_soap is True:
             soap_dict[species_gas] = get_features_soap(atoms=atoms_ads, **soap_kwargs)
         features_soap = np.zeros((len(atoms), n_soap))
         features_soap[:n_clean] = soap_dict[surface]
